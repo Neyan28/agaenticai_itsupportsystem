@@ -10,3 +10,21 @@ psycopg2-binary
 psycopg[binary]
 python-dotenv
 uuid
+
+
+
+
+
+# 1. Set up DB
+psql -U postgres -d your_db_name -f schema.sql
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Fill in .env
+
+# 4. Run user portal
+streamlit run app.py
+
+# 5. Run IT dashboard (new terminal)
+streamlit run it_dashboard.py --server.port 8502
