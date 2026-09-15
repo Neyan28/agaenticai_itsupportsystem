@@ -1,0 +1,12 @@
+streamlit
+langgraph
+langgraph-checkpoint-postgres
+langchain
+langchain-anthropic
+openai
+mcp
+chromadb
+psycopg2-binary
+psycopg[binary]
+python-dotenv
+uuid
